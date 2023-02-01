@@ -1,0 +1,27 @@
+{
+  "name": "a02-functions-lwjoyner",
+  "version": "1.0.0",
+  "description": "This assignment will help you learn to create an installable Node.js command line utility.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a02-functions-lwjoyner.git"
+  },
+  "author": "Logan Joyner",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a02-functions-lwjoyner/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a02-functions-lwjoyner#readme",
+  "dependencies": {
+    "minimist": "^1.2.7",
+    "moment-timezone": "^0.5.40",
+    "node-fetch": "^3.3.0"
+  },
+  "bin": {
+    "galosh.js": "./cli.js"
+  }
+}
