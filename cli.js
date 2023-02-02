@@ -2,7 +2,8 @@
 
 async function app() {
     const moment = require("moment-timezone");
-    const args = require("minimist")(process.argv.slice(2))
+    const args = require("minimist")(process.argv.slice(2));
+    const nf = require("node-fetch");
 
     if (args.h) {
         console.log("Usage: galosh.js [options] -[n|s] LATITUDE -[e|w] LONGITUDE -z TIME_ZONE");
