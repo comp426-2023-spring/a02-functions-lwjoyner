@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
-import fetch from "node-fetch";
-const moment = require("moment-timezone");
-const args = require("minimist")(process.argv.slice(2));
+import fetch from 'node-fetch';
+import moment from "moment-timezone";
+import minimist from 'minimist'
+const args = minimist(process.argv.slice(2));
 
 async function app() {
     if (args.h) {
